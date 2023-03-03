@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => createStyles({
 }));
 
 //ヘッダーのコンテンツ用の配列定義
-const headerList = ['名前', 'タスク内容', '編集', '完了'];
+const headerList = ['名前', 'あいうえお', '編集', '完了'];
 
 function Home() {
     //定義したスタイルを利用するための設定
