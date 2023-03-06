@@ -16820,7 +16820,7 @@ var useStyles = (0,_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_6__.default
   });
 }); //ヘッダーのコンテンツ用の配列定義
 
-var headerList = ['名前', 'タスク内容', '編集', '完了'];
+var headerList = ['名前', 'あいうえお', '編集', '完了'];
 
 function Home() {
   var _this = this;
@@ -16983,6 +16983,11 @@ function Home() {
               headerList: headerList,
               rows: rows
             })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__.default, {
+            color: "secondary",
+            variant: "contained",
+            href: "/example",
+            children: "Home\u306B\u9077\u79FB\u30DC\u30BF\u30F3"
           })]
         })
       })

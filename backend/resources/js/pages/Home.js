@@ -116,6 +116,7 @@ function Home() {
                             {/* テーブル部分の定義 */}
                             <MainTable headerList={headerList} rows={rows} />
                         </Card>
+                        <Button color="secondary" variant="contained" href={`/example`}>Homeに遷移ボタン</Button>
                     </div>
                 </div>
             </div>
